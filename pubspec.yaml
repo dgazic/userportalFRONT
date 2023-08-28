@@ -1,0 +1,149 @@
+name: userportal
+description: Platforma za ticketing sustav.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  email_validator: ^2.0.1
+  provider: ^6.0.2
+  http: ^0.13.4
+  get: ^4.6.5
+  vertical_navigation_bar: ^0.0.1
+  url_launcher: ^6.1.2
+  font_awesome_flutter: ^8.8.1
+  shared_preferences: ^2.0.15
+  jwt_decode: ^0.3.1
+  fluro: ^2.0.3
+  flutter_secure_storage: ^5.0.2
+  jwt_decoder: ^2.0.1
+  auto_size_text: ^3.0.0
+  horizontal_data_table: ^4.1.1+1
+  timeline_tile: ^2.0.0
+  data_table_2: ^2.3.6
+  file_picker: ^3.0.4
+  open_file_plus: ^3.3.0
+  syncfusion_flutter_datepicker: ^20.3.48
+  flutter_localizations:
+    sdk: flutter
+  hovering: ^1.0.4
+  flutter_excel: ^1.0.1
+  web_browser_detect: ^2.0.3
+  device_info_plus: ^7.0.0
+  uuid: ^3.0.6
+  flutter_svg: ^1.1.6
+  dropdown_search: ^5.0.3
+  multiselect: ^0.0.7
+  flutter_locales: ^2.0.2
+  dio: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/IN2logo.png
+    - assets/images/in2.png
+    - assets/images/linkedin.png
+    - assets/images/in2_logo.png
+    - assets/images/Naslov.png
+    - assets/images/Back_1.png
+    - assets/images/logo.png
+    - assets/images/IBIS_logo_white_red.png
+    - assets/images/verticalLine.png
+    - assets/images/Back_app_1.png
+    - assets/images/Pregled_zadataka_icon.png
+    - assets/images/Pregled_zadataka_icon_off.png
+    - assets/images/korisnicki_profil_off.png
+    - assets/images/korisnicki_profil_on.png
+    - assets/images/Administracija_icon.png
+    - assets/images/Administracija_icon_off.png
+    - assets/images/Prijavljivanje_zadataka_icon.png
+    - assets/images/prijavljivanje_zadataka_icon_off.png
+    - assets/images/Home_grey.png
+    - assets/images/Home_white.png
+    - assets/images/dodavanje_korisnika_grey.png
+    - assets/images/dodavanje_korisnika_white.png
+    - assets/images/Back_1.png
+    - assets/images/homePage.png
+    - assets/images/Analiza_On.svg
+    - assets/images/Analiza_Off.svg
+    - assets/images/Dodijeljen_ON.svg
+    - assets/images/Dodijeljen_Off.svg
+    - assets/images/Isporucen_Off.svg
+    - assets/images/Isporucen_On.svg
+    - assets/images/Isporuka_off.svg
+    - assets/images/Isporuka_On.svg
+    - assets/images/Razvoj_off.svg
+    - assets/images/Razvoj_On.svg
+    - assets/images/Rijesen_Off.svg
+    - assets/images/Rijesen_On.svg
+    - assets/images/Zatvoren_On.svg
+    - assets/images/Zatvoren_Off.svg
+    - assets/locales/en.json
+    - assets/locales/hr.json
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
